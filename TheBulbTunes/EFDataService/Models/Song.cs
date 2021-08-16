@@ -31,5 +31,7 @@ namespace TheBulbTunes.EFDataService.Models
 
         [Required]
         public DateTime ReleaseDate { get; set; }
+
+        public List<Favourite> FavouritesList { get; set; }
     }
 }
