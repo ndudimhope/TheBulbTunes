@@ -20,5 +20,9 @@ namespace TheBulbTunes.EFDataService.Models
 
         [Required, MaxLength(150)]
         public string EmailAddress { get; set; }
+
+        public List<Favourite> FavouritesList { get; set; }
+
+
     }
 }
