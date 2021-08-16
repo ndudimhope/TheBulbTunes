@@ -13,11 +13,10 @@ namespace TheBulbTunes.EFDataService.Models
         public Guid Id { get; set; }
 
         [Required]
-        public Guid SongId { get; set; }
-
+        public Guid SelectedSongId { get; set; }
 
         [Required]
-        public virtual Song SelectedSongId { get; set; }
+        public virtual Song SelectedSong { get; set; }
 
 
         //Navigation Properties
