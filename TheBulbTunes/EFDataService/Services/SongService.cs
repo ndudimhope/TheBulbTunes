@@ -106,7 +106,7 @@ namespace TheBulbTunes.EFDataService.Services
             if (songWithNewInfo.Album != null) songToUpdate.Album = songWithNewInfo.Album;
             if (songWithNewInfo.Genre != null) songToUpdate.Genre = songWithNewInfo.Genre;
             if (songWithNewInfo.Featuring != null) songToUpdate.Featuring = songWithNewInfo.Featuring;
-            if (songWithNewInfo.ReleaseDate != null) songToUpdate.ReleaseDate = songWithNewInfo.ReleaseDate;
+        
             _context.SaveChanges();
         }
 
