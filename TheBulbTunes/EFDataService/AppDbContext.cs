@@ -16,7 +16,7 @@ namespace TheBulbTunes.EFDataService
         //Constructor to set up connection to database
         public AppDbContext()
         {
-            connectionString = "Data Source=.;Initial Catalog=SchoolAdminDB;Integrated Security=True;Pooling=False";
+            connectionString = "Data Source=HOPE-NDUDIM\\SQLEXPRESS;Initial Catalog=TheBulbTunesDB;Integrated Security=True;Pooling=False";
         }
 
         //DBSet properties, one for each entity/model
